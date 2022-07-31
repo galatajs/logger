@@ -1,0 +1,16 @@
+{
+  "name": "@istanbul/logger",
+  "version": "0.0.1",
+  "description": "CLI Group of Istanbul Framework",
+  "keywords": [
+    "istanbul",
+    "istanbuljs",
+    "logger",
+    "winston",
+    "pino",
+    "filestream",
+    "database"
+  ],
+  "author": "Sami Salih İBRAHİMBAŞ",
+  "license": "MIT"
+}

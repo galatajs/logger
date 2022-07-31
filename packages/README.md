@@ -1,0 +1,1 @@
+Under this folder, there are sub-projects belonging to the security group. Each are independent of each other and clustered this way for a more aggregated repo layout.
