@@ -1,0 +1,47 @@
+{
+  "name": "@istanbul/pino-logger",
+  "version": "0.0.1",
+  "description": "A pino logger for Istanbul",
+  "homepage": "https://github.com/istanbulnode/logger/tree/main/packages/pino-logger#readme",
+  "keywords": [
+    "typescript",
+    "istanbul",
+    "istanbuljs",
+    "pino",
+    "logger"
+  ],
+  "author": "Sami Salih İBRAHİMBAŞ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istanbulnode/logger/tree/main/packages/pino-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/istanbulnode/logger/tree/main/packages/pino-logger/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "node --no-warnings --test",
+    "clear": "del-cli ./dist/*",
+    "build": "npm run clear && tsc",
+    "production": "npm run build && npm run test"
+  },
+  "devDependencies": {
+    "@istanbul/http": "^0.0.21",
+    "@istanbul/test": "^0.0.3",
+    "@istanbul/ws": "^0.0.28",
+    "@types/node": "^18.7.18",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "pino": "^8.5.0"
+  }
+}
