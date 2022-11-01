@@ -1,7 +1,7 @@
 const test = require("node:test");
 const assert = require("node:assert");
-const { getModule, createTestApp } = require("@istanbul/test");
-const { createApp, createModule } = require("@istanbul/app");
+const { getModule, createTestApp } = require("@galatajs/test");
+const { createApp, createModule } = require("@galatajs/app");
 const { createPinoModule } = require("../dist");
 
 test("PinoModule Unit Tests", async (t) => {

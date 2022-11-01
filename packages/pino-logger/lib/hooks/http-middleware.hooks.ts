@@ -1,5 +1,5 @@
 import { createPinoLogger } from "./pino.hooks";
-import { NextFunction, Request, Response } from "@istanbul/http";
+import { NextFunction, Request, Response } from "@galatajs/http";
 import { DestinationStream, LoggerOptions } from "pino";
 
 export const createPinoHttpMiddleware = <

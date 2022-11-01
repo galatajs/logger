@@ -1,4 +1,4 @@
-import { GlobalMiddleware, NextFunction, Socket } from "@istanbul/ws";
+import { GlobalMiddleware, NextFunction, Socket } from "@galatajs/ws";
 import { DestinationStream, LoggerOptions } from "pino";
 import { createPinoLogger } from "./pino.hooks";
 

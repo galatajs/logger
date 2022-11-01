@@ -1,12 +1,10 @@
 {
-  "name": "@istanbul/pino-logger",
-  "version": "0.0.1",
-  "description": "A pino logger for Istanbul",
-  "homepage": "https://github.com/istanbulnode/logger/tree/main/packages/pino-logger#readme",
+  "name": "@galatajs/pino-logger",
+  "version": "0.1.1",
+  "description": "A pino logger for GalataJS",
+  "homepage": "https://github.com/galatajs/logger/tree/main/packages/pino-logger#readme",
   "keywords": [
     "typescript",
-    "istanbul",
-    "istanbuljs",
     "pino",
     "logger"
   ],
@@ -14,10 +12,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/istanbulnode/logger/tree/main/packages/pino-logger.git"
+    "url": "git+https://github.com/galatajs/logger/tree/main/packages/pino-logger.git"
   },
   "bugs": {
-    "url": "https://github.com/istanbulnode/logger/tree/main/packages/pino-logger/issues"
+    "url": "https://github.com/galatajs/logger/tree/main/packages/pino-logger/issues"
   },
   "directories": {
     "lib": "lib",
@@ -35,9 +33,9 @@
     "production": "npm run build && npm run test"
   },
   "devDependencies": {
-    "@istanbul/http": "^0.0.21",
-    "@istanbul/test": "^0.0.3",
-    "@istanbul/ws": "^0.0.28",
+    "@galatajs/http": "^0.1.1",
+    "@galatajs/test": "^0.1.1",
+    "@galatajs/ws": "^0.1.1",
     "@types/node": "^18.7.18",
     "typescript": "^4.8.3"
   },

@@ -1,10 +1,8 @@
 {
-  "name": "@istanbul/logger",
+  "name": "@galatajs/logger",
   "version": "0.0.1",
-  "description": "CLI Group of Istanbul Framework",
+  "description": "CLI Group of GalataJS Framework",
   "keywords": [
-    "istanbul",
-    "istanbuljs",
     "logger",
     "winston",
     "pino",
